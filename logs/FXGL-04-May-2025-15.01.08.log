@@ -1,0 +1,186 @@
+15:01:05.560 [main                     ] DEBUG Logger               - Configured Logger
+15:01:05.585 [main                     ] DEBUG GameApplication      - Logging settings
+Title: Galactic Odyssey
+Version: 0.0
+Width: 1500
+Height: 800
+Fullscreen: false
+Intro: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.scene.SceneFactory
+
+15:01:05.807 [JavaFX Application Thread] DEBUG FXGLApplication      - Initializing FXGL
+15:01:05.811 [JavaFX Application Thread] INFO  Engine               - FXGL-17.3 (30.03.2023 11.49) on WINDOWS (J:17.0.12 FX:17.0.2-ea)
+15:01:05.812 [JavaFX Application Thread] DEBUG Engine               - JRE Vendor Name: Oracle Corporation
+15:01:05.812 [JavaFX Application Thread] DEBUG Engine               - Running on OS: Windows 11 version 10.0
+15:01:05.812 [JavaFX Application Thread] DEBUG Engine               - Architecture: amd64
+15:01:05.812 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+15:01:05.812 [JavaFX Application Thread] INFO  Engine               -       Ask questions and discuss at: https://github.com/AlmasB/FXGL/discussions
+15:01:05.812 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+15:01:05.874 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Creating a JavaFX scene
+15:01:05.874 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target size > screen size
+15:01:05.900 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target settings size: 1500.0 x 800.0
+15:01:05.900 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled scene size:    1325.0 x 720.0
+15:01:05.900 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (0.8833333333333333, 0.9)
+15:01:05.901 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Set initial scene to FXGLStartupScene
+15:01:05.905 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Opening main window
+15:01:05.972 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Window border size: (16.0, 39.0)
+15:01:05.972 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled size: 1325.0 x 720.0
+15:01:05.972 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (0.8833333333333333, 0.9)
+15:01:05.973 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scene size: 1325.0 x 720.0
+15:01:05.973 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Stage size: 1341.0 x 759.0
+15:01:05.978 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing environment variables
+15:01:06.028 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - User app class for loading assets: class App.MainApp
+15:01:06.028 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Applying CSS: fxgl_dark.css
+15:01:06.030 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/css/fxgl_dark.css
+15:01:06.078 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Initializing application scenes
+15:01:06.123 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+15:01:06.177 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=800, physics.ppm=50.0
+15:01:06.177 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Using strategy: BRUTE_FORCE
+15:01:06.181 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1500x800
+15:01:06.193 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyGameMenu()
+15:01:06.206 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+15:01:06.214 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/textures/particles/smoke.png
+15:01:06.300 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/textures/particles/trace_horizontal.png
+15:01:06.324 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Application scenes initialized
+15:01:06.335 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Loading FXGL system data
+15:01:06.340 [FXGL Background Thread 1 ] DEBUG FileSystemAccess     - Reading from: C:\UNI\lorenzo.alvarado-Proyecto-Final-DPOO-2025\system\fxgl.bundle
+15:01:06.348 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Bundle FXGL: {}
+15:01:06.348 [FXGL Background Thread 1 ] DEBUG UpdaterService       - Checking for updates
+15:01:06.352 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Loading fonts
+15:01:06.353 [FXGL Background Thread 1 ] DEBUG FXGLApplication      - Loading default localization
+15:01:06.353 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/fonts/VarelaRound-Regular.ttf
+15:01:06.353 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/languages/english.lang
+15:01:06.372 [FXGL Background Thread 1 ] INFO  FXGLApplication      - FXGL initialization took: 0.394 sec
+15:01:06.378 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Left - A
+15:01:06.379 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Right - D
+15:01:06.379 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Up - W
+15:01:06.379 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Move Down - S
+15:01:06.379 [JavaFX Application Thread] DEBUG Input                - Registered new binding: End Turn - Enter
+15:01:06.380 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Hero Attack - LMB
+15:01:06.380 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Special Ability - RMB
+15:01:06.381 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/textures/fxgl_icon.png
+15:01:06.396 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/textures/fxgl_default_cursor.png
+15:01:06.398 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - CTRL+8
+15:01:06.398 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+15:01:06.399 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+15:01:06.399 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/fonts/Abel-Regular.ttf
+15:01:06.399 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Toggle Debug Camera - CTRL+7
+15:01:06.400 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/fonts/TerminalLandMono-Regular.otf
+15:01:06.402 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Johan/.m2/repository/com/github/AlmasB/fxgl/17.3/fxgl-17.3.jar!/fxglassets/ui/fonts/Courier-Prime.ttf
+15:01:06.402 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+15:01:06.402 [JavaFX Application Thread] DEBUG LoopRunner           - Initializing JavaFX AnimationTimerLoop
+15:01:06.404 [JavaFX Application Thread] DEBUG GameApplicationServi - Starting new game
+15:01:06.405 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:01:06.414 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLStartupScene and adding to FXGLLoadingScene
+15:01:06.414 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLStartupScene -> FXGLLoadingScene
+15:01:06.414 [JavaFX Application Thread] DEBUG GameApplicationServi - Clearing previous game
+15:01:06.414 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+15:01:06.414 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+15:01:06.414 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+15:01:06.416 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Initializing game
+15:01:06.418 [JavaFX Application Thread] DEBUG FXGLApplication      - Registering font factories with UI factory
+15:01:06.460 [FXGL Background Thread 4 ] WARN  TMXLevelLoader       - TiledMap generated from 1.11.2. Supported version: 1.9.0. Some features may not be parsed fully.
+15:01:06.492 [FXGL Background Thread 4 ] DEBUG TMXLevelLoader       - Parsed TiledMap: file:/C:/UNI/lorenzo.alvarado-Proyecto-Final-DPOO-2025/Galactic%20odyssey/target/classes/assets/levels/MapGame1.tmx
+15:01:06.494 [FXGL Background Thread 4 ] DEBUG TMXLevelLoader       - Creating tile layer entities
+15:01:06.496 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Espacio
+15:01:06.500 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.548 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Planetas
+15:01:06.561 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.563 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Suelo
+15:01:06.568 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.576 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Suelo ruinas
+15:01:06.579 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.580 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Torres ruinas
+15:01:06.582 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.637 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Cristales espaciales
+15:01:06.639 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.639 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Rocas1
+15:01:06.643 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.668 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Muro
+15:01:06.673 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.674 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Rocas
+15:01:06.677 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.682 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Rocas2
+15:01:06.686 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.687 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Naves
+15:01:06.693 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.694 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Loading view for layer Objetos
+15:01:06.698 [FXGL Background Thread 4 ] DEBUG TilesetLoader        - Created buffer with size 1920.0x960.0
+15:01:06.698 [FXGL Background Thread 4 ] DEBUG TMXLevelLoader       - Creating object layer entities
+15:01:06.700 [FXGL Background Thread 4 ] WARN  TMXLevelLoader       - Parse error
+java.lang.IllegalArgumentException: No EntityFactory has a method annotated @Spawns(obstaculo)
+	at com.almasb.fxgl.entity@17.3/com.almasb.fxgl.entity.GameWorld.create(GameWorld.kt:413)
+	at com.almasb.fxgl.entity@17.3/com.almasb.fxgl.entity.level.tiled.TMXLevelLoader.createObjectLayerEntities(TMXLevelLoader.kt:155)
+	at com.almasb.fxgl.entity@17.3/com.almasb.fxgl.entity.level.tiled.TMXLevelLoader.load(TMXLevelLoader.kt:60)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.services.FXGLAssetLoaderService.loadLevel(FXGLAssetLoaderService.kt:430)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.dsl.FXGL$Companion.setLevelFromMap(FXGL.kt:634)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.dsl.FXGL.setLevelFromMap(FXGL.kt)
+	at Game.main/View.Maps.Map_1.MapLoader.loadMap(MapLoader.java:14)
+	at Game.main/levels.level1.Level1.initLevel(Level1.java:28)
+	at Game.main/App.MainApp.loadLevel(MainApp.java:225)
+	at Game.main/App.MainApp.startNewGame(MainApp.java:213)
+	at Game.main/App.MainApp.initGame(MainApp.java:64)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.FXGLApplication$InitAppTask.initGame(FXGLApplication.kt:339)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.FXGLApplication$InitAppTask.call(FXGLApplication.kt:319)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.FXGLApplication$InitAppTask.call(FXGLApplication.kt:311)
+	at javafx.graphics/javafx.concurrent.Task$TaskCallable.call(Task.java:1426)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+15:01:06.705 [JavaFX Application Thread] DEBUG LoopRunner           - Stopping loop
+15:01:06.705 [JavaFX Application Thread] FATAL FXGLApplication      - Uncaught Exception:
+java.lang.RuntimeException: Initialization failed
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.FXGLApplication$InitAppTask.failed(FXGLApplication.kt:343)
+	at javafx.graphics/javafx.concurrent.Task.setState(Task.java:710)
+	at javafx.graphics/javafx.concurrent.Task$TaskCallable.lambda$call$2(Task.java:1456)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.almasb.fxgl.entity.level.LevelLoadingException: No EntityFactory has a method annotated @Spawns(obstaculo)
+	at com.almasb.fxgl.entity@17.3/com.almasb.fxgl.entity.level.tiled.TMXLevelLoader.load(TMXLevelLoader.kt:78)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.services.FXGLAssetLoaderService.loadLevel(FXGLAssetLoaderService.kt:430)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.dsl.FXGL$Companion.setLevelFromMap(FXGL.kt:634)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.dsl.FXGL.setLevelFromMap(FXGL.kt)
+	at Game.main/View.Maps.Map_1.MapLoader.loadMap(MapLoader.java:14)
+	at Game.main/levels.level1.Level1.initLevel(Level1.java:28)
+	at Game.main/App.MainApp.loadLevel(MainApp.java:225)
+	at Game.main/App.MainApp.startNewGame(MainApp.java:213)
+	at Game.main/App.MainApp.initGame(MainApp.java:64)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.FXGLApplication$InitAppTask.initGame(FXGLApplication.kt:339)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.FXGLApplication$InitAppTask.call(FXGLApplication.kt:319)
+	at com.almasb.fxgl.all@17.3/com.almasb.fxgl.app.FXGLApplication$InitAppTask.call(FXGLApplication.kt:311)
+	at javafx.graphics/javafx.concurrent.Task$TaskCallable.call(Task.java:1426)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+Caused by: java.lang.IllegalArgumentException: No EntityFactory has a method annotated @Spawns(obstaculo)
+	at com.almasb.fxgl.entity@17.3/com.almasb.fxgl.entity.GameWorld.create(GameWorld.kt:413)
+	at com.almasb.fxgl.entity@17.3/com.almasb.fxgl.entity.level.tiled.TMXLevelLoader.createObjectLayerEntities(TMXLevelLoader.kt:155)
+	at com.almasb.fxgl.entity@17.3/com.almasb.fxgl.entity.level.tiled.TMXLevelLoader.load(TMXLevelLoader.kt:60)
+	... 18 more
+
+15:01:06.706 [JavaFX Application Thread] FATAL FXGLApplication      - Application will now exit
+15:01:06.722 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Push state: ErrorSubScene
+15:01:06.723 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+15:01:06.727 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLLoadingScene and adding to ErrorSubScene
+15:01:06.728 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLLoadingScene -> ErrorSubScene
+15:01:08.224 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL
+15:01:08.224 [JavaFX Application Thread] DEBUG Async                - Shutting down background threads
+15:01:08.225 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Closing main window
+15:01:08.239 [JavaFX Application Thread] DEBUG Logger               - Closing Logger
