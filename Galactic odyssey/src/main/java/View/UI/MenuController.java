@@ -16,7 +16,7 @@ public class MenuController {
     }
 
     private void showBackgroundImage() {
-        Texture backgroundImage = FXGL.texture("fondo_menu.png");
+        Texture backgroundImage = FXGL.texture("menu_background.png");
         backgroundImage.setFitWidth(getAppWidth());
         backgroundImage.setFitHeight(getAppHeight());
 
@@ -30,8 +30,8 @@ public class MenuController {
         Label title = new Label("Galactic Odyssey");
         title.setStyle("-fx-font-size: 24px; -fx-font-weight: bold;");
 
-        Button startButton = new Button("Iniciar Juego");
-        Button exitButton = new Button("Salir");
+        Button startButton = new Button("Start Game");
+        Button exitButton = new Button("Exit");
 
         startButton.setPrefSize(250, 60);
         exitButton.setPrefSize(250, 60);
@@ -40,7 +40,7 @@ public class MenuController {
         exitButton.setStyle("-fx-font-size: 18px;");
 
         startButton.setOnAction(e -> {
-            ((App.App) FXGL.getApp()).startNewGame();
+            ((App.MainApp) FXGL.getApp()).startNewGame();
         });
         exitButton.setOnAction(e -> getGameController().exit());
 
